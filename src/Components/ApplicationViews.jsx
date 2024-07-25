@@ -5,8 +5,9 @@ export default function ApplicationViews() {
   return (
     <Routes>
       <Route path="/">
-        <Route index element={<HomeView />} />
+        <Route index element={"Hello! Landing Page"} />
       </Route>
+      <Route path="/home" element={<HomeView />} />
       <Route path="*" element={<p>Whoops, nothing here...</p>} />
     </Routes>
   );
