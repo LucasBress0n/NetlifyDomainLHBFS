@@ -1,12 +1,13 @@
 import "./App.css";
-import { HomeView } from "./Views/HomeViewFolder/HomeView";
+import { NavigationBar } from "./Components/Navbar";
+import ApplicationViews from "./Components/ApplicationViews";
 
 function App() {
   return (
-    <div className="App">
-      <h1>App!</h1>
-      <HomeView />
-    </div>
+    <>
+      <NavigationBar />
+      <ApplicationViews />
+    </>
   );
 }
 
