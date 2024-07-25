@@ -8,7 +8,7 @@ export const HomeView = () => {
       <button
         onClick={() => {
           const copy = [...hello];
-          copy.push("Hello!");
+          copy.push("Hello! 1");
           setHello(copy);
         }}
       >
