@@ -14,7 +14,7 @@ export const HomeView = () => {
       >
         Add Hello!
       </button>
-      {state.map((sObj) => {
+      {hello.map((sObj) => {
         return <p>{sObj}</p>;
       })}
     </main>
